@@ -1,0 +1,3 @@
+#while vs for syntax
+
+
