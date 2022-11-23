@@ -1,3 +1,0 @@
-#while vs for syntax
-
-
