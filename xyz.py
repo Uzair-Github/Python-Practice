@@ -1,5 +1,3 @@
-n=float(input("Input number:"))
-if n >= 0:
-    if n == 0: print("It is Zero! ")
-    else: print("Number is Positive number. ")
-else: print("Number is Negative number. ")
+a = 20
+for a in range = (0 , 20 ,2):
+Print(a)

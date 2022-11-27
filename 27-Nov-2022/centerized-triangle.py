@@ -1,13 +1,19 @@
-star_lim = int(input("Enter a number below 20: "))
+#Program have error
+star_lim = int(input("Enter a number below 10: "))
 print ("Triangle will have",star_lim,"Stars's triangle")
 x = "*"
-ocount=0
+oput = 1
+print("Oput:",oput)
+neg_2 = 0
+print("Oput:",oput)
 space = "-"
-gap = star_lim*space
-if star_lim<=20:
-    while ocount <= star_lim:
-        print(gap,x*ocount,gap)
-        ocount = ocount + 1
+if star_lim<=10:
+    while oput <= star_lim:
+        neg_2 = (star_lim-2)/2
+        for neg_2
+
+        oput = oput + 1
+
 
 else:
     print("Error")
