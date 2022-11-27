@@ -10,7 +10,7 @@ if lim_num<=0:
 else:
     print("Your Fibnocci Series: ")
     print(init0)
-    while lim_num>=init0:
+    while lim_num>init0:
         init1 = init2
         init2 = init0
         init0 = init1+init2
