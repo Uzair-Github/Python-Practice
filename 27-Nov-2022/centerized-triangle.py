@@ -1,14 +1,28 @@
-star_rows = int(input("Enter number: "))
-print("Your no is: ", star_rows)
-save_row = star_rows
-oppo_count = 1
+star_lim = int(input("Enter number: "))
+print("Your no is: ", star_lim)
+ach_lim = 0
+ch_lim = star_lim+1
+print(type(ach_lim))
 sym = "*"
-sym_mult=2
-dash = "-"
-dash_mult=star_rows-2
-while save_row>=0:
-    while dash_mult >=1:
-        print(dash*dash_mult,sym*sym_mult,dash*dash_mult)
-        dash_mult-2
-        sym_mult+2
-        save_row-=1
+dash = " "
+if star_lim > 0:
+    while ach_lim <= star_lim:
+        if ach_lim/2==0:
+            #print("Printing if")
+            ach_lim += 1
+            #print("ach_lim:",ach_lim)
+            ch_lim -= 1
+            #print("ch_lim:",ch_lim)
+            print(dash * ch_lim, sym * ach_lim, dash * ch_lim)
+            #print ("dash",dash,"ch_lim",ch_lim,"sym",sym,"ach_lim",ach_lim,"dash",dash,"ch_lim",ch_lim)
+
+        else:
+            #print("Printing else")
+            ach_lim += 2
+            #print("ach_lim:",ach_lim)
+            ch_lim -= 1
+            #print("ch_lim:",ch_lim)
+            print(dash * ch_lim, sym * ach_lim, dash * ch_lim)
+            #print("dash", dash, "ch_lim", ch_lim, "sym", sym, "ach_lim", ach_lim, "dash", dash, "ch_lim", ch_lim)
+else:
+    print("Error")
