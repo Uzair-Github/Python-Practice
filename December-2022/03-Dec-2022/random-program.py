@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=0V8VTMol7Vc
 import random
 
-print(random.randint(1,6))
+dice = random.randint(1,6)
+print("After rolling the dice, you got:" ,dice )
